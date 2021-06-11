@@ -1,7 +1,7 @@
 {{ define "main" }}
 <section class="talk">
 
-	<header class="tag-{{ anchorize (delimit (.Params.tags | default (slice))  "" ) }}">
+	<header class="tag-{{ anchorize (delimit .Params.tags "" ) }}">
 	<div class="tags">
 		{{ range .Params.tags }}
 			{{ range first 1 (where $.Site.Data.categories "key" .) }}
@@ -50,7 +50,7 @@
 		{{ if .Params.presentation }}
 		<a class="social-slides"
 		   href="{{ .Params.presentation }}"
-		   rel="noopener noreferrer"
+		   rel="noreferrer"
 		   target="_blank">
 			{{ partial "icon.html" "slides" }}
 			Voir les slides
