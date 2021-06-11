@@ -32,7 +32,7 @@ other = "Share"
 other = "Share on Facebook"
 
 [twitter_share_text]
-other = "Come join us at @DevFestToulouse the unavoidable conference for Software developers in Toulouse, France #DevFestToulouse"
+other = "Come join us at UCF CUWiP 2022!"
 
 [twitter_share_label]
 other = "Share on Twitter"
@@ -50,7 +50,7 @@ other = "Follow us"
 other = "About"
 
 [footer_previous_edition]
-other = "Previous edition"
+other = "Previous UCF CUWiP Meetings"
 
 [footer_become_partners]
 other = "Become partner"
